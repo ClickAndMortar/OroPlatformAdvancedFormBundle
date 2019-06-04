@@ -1,0 +1,17 @@
+{% extends 'OroUIBundle:Form:fields.html.twig' %}
+
+{% block candm_mask_text_widget %}
+    {% set options = {
+        view: 'clickandmortaradvancedform/js/app/views/inputmask/inputmask-view',
+        mask: mask,
+        placeholder: mask_placeholder
+    }
+    %}
+
+    {% set attr = attr|merge({
+        'data-page-component-module': 'oroui/js/app/components/view-component',
+        'data-page-component-options': options|json_encode(constant('JSON_FORCE_OBJECT'))
+    }) %}
+
+    {{ block('form_widget_simple') }}
+{% endblock candm_mask_text_widget %}

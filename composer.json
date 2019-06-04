@@ -1,0 +1,17 @@
+{
+    "name": "clickandmortar/oro-platform-advanced-form-bundle",
+    "description": "Advanced form bundle for OroPlatform / OroCRM projects",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon CARRE",
+            "email": "simon.carre@clickandmortar.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClickAndMortar\\AdvancedFormBundle\\": ""
+        }
+    }
+}

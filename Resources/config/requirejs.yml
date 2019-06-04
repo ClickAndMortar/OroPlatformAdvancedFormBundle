@@ -1,0 +1,4 @@
+config:
+    paths:
+        'jquery.inputmask': 'bundles/clickandmortaradvancedform/js/lib/inputmask/inputmask.min.js'
+        'clickandmortaradvancedform/js/app/views/inputmask/inputmask-view': 'bundles/clickandmortaradvancedform/js/app/views/inputmask-view.js'
