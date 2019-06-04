@@ -1,5 +1,5 @@
 parameters:
-    candm_advancedform.form.type.mask_text.class: ClickAndMortar\AdvancedFormBundle\Form\ClickAndMortarMaskTextType
+    candm_advancedform.form.type.mask_text.class: ClickAndMortar\AdvancedFormBundle\Form\MaskTextType
 
 services:
     candm_advancedform.form.type.mask_text:

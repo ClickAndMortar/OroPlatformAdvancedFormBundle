@@ -5,7 +5,6 @@ namespace ClickAndMortar\AdvancedFormBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Symfony\Component\Form\FormView;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 
@@ -15,7 +14,7 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
  * @author  Simon CARRE <simon.carre@clickandmortar.fr>
  * @package ClickAndMortar\AdvancedFormBundle\Form
  */
-class ClickAndMortarMaskTextType extends AbstractType
+class MaskTextType extends AbstractType
 {
     /**
      * {@inheritdoc}
@@ -37,22 +36,17 @@ class ClickAndMortarMaskTextType extends AbstractType
     /**
      * {@inheritdoc}
      */
-    public function setDefaultOptions(OptionsResolverInterface $resolver)
-    {
-        $resolver->setDefaults(array(
-            'mask'             => '',
-            'mask_placeholder' => '',
-        ));
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function configureOptions(OptionsResolver $resolver)
     {
-        $resolver->setRequired(array(
-            'mask',
-        ));
+        $resolver
+            ->setDefaults(
+                [
+                    'mask'             => '',
+                    'mask_placeholder' => '',
+                ]
+            )->setRequired([
+                'mask',
+            ]);
     }
 
     /**
