@@ -4,6 +4,8 @@ Advanced Form bundle is a bundle for OroPlatform / OroCRM project. It allows to 
 
 Made with :blue_heart: by C&M
 
+![](docs/demo.gif)
+
 ## Requirements
 
 |                                     | Version |
