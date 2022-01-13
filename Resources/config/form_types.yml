@@ -3,6 +3,6 @@ parameters:
 
 services:
     candm_advancedform.form.type.mask_text:
-        class: %candm_advancedform.form.type.mask_text.class%
+        class: '%candm_advancedform.form.type.mask_text.class%'
         tags:
             - { name: form.type, alias: candm_mask_text }

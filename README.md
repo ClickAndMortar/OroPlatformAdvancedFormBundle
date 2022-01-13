@@ -6,12 +6,12 @@ Made with :blue_heart: by C&M
 
 ![](docs/demo.gif)
 
-## Requirements
+## Versions
 
-|                                     | Version |
-| ----------------------------------- | ------- |
-| PHP                                 | `>=7.1` |
-| OroPlatform / OroCrm                | `>=3.1` |
+| Bundle version | OroPlaftorm version |
+|----------------|---------------------|
+| 4.2.*          | 4.2.*               |
+| 1.0.*          | 3.1.*               |
 
 ## Installation
 
