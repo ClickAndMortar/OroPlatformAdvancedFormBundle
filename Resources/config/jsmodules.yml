@@ -1,0 +1,7 @@
+aliases:
+    jquery.inputmask$: bundles/clickandmortaradvancedform/js/lib/inputmask/inputmask.min
+    clickandmortaradvancedform/js/app/views/inputmask/inputmask-view: bundles/clickandmortaradvancedform/js/app/views/inputmask-view
+dynamic-imports:
+    nhcrm:
+        - jquery.inputmask
+        - clickandmortaradvancedform/js/app/views/inputmask/inputmask-view
